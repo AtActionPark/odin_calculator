@@ -1,3 +1,5 @@
+[html preview](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_calculator/blob/master/main.html)
+
 [Project: Building An On Screen Calculator Using Javascript](http://www.theodinproject.com/javascript-and-jquery/on-screen-calculator)
 
 You've done a lot of Codecademy lately and so it's time to wean yourself off their super-friendly environment and create some Javascript on your own computer.
