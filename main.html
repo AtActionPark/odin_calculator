@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="js/calculator.js"> </script>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
+
+  <body onLoad = "init()">
+    <h3>The Odin Project : <a href="http://www.theodinproject.com/javascript-and-jquery/on-screen-calculator">Building An On Screen Calculator Using Javascript</a></h3>
+    <div class="calculator">
+      <div class="screen"><span class="display"></span></div>
+
+      <input class="number" type="button" onclick="storeNumber(7)" value="7"/>
+      <input class="number" type="button" onclick="storeNumber(8)" value="8"/>
+      <input class="number" type="button" onclick="storeNumber(9)" value="9"/>
+      <input class="operation" type="button" onclick="storeOperation(divide)" value="/"/>
+      <input class="number" type="button" onclick="storeNumber(4)" value="4"/>
+      <input class="number" type="button" onclick="storeNumber(5)" value="5"/>
+      <input class="number" type="button" onclick="storeNumber(6)" value="6"/>
+      <input class="operation" type="button" onclick="storeOperation(multiply)" value="*"/>
+      <input class="number" type="button" onclick="storeNumber(1)" value="1"/>
+      <input class="number" type="button" onclick="storeNumber(2)" value="2"/>
+      <input class="number" type="button" onclick="storeNumber(3)" value="3"/>
+      <input class="operation" type="button" onclick="storeOperation(subtract)" value="-"/>
+      <input class="number" type="button" onclick="storeNumber('.')" value="."/>
+      <input class="number" type="button" onclick="storeNumber(0)" value="0"/>
+      <input class="red" type="button" onclick="displayEquals()" value="="/>
+      <input class="operation" type="button" onclick="storeOperation(add)" value="+"/>
+      <input class="clear red" type="button" onclick="displayClear()" value="C"/>
+    </div>
+
+    <h4>See code on <a href="https://github.com/AtActionPark/odin_calculator">github</a></h4>
+  </body>
+</html>
